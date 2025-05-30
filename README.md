@@ -1,8 +1,7 @@
 # Task-4-Setup-and-Use-a-firewall-on-windows-Linux
 
-🔒 Option 1: Windows Firewall
-
-🔧 Steps:
+Option 1: Windows Firewall
+ Steps:
 
 1. Open Windows Firewall GUI:
 
@@ -64,13 +63,11 @@ Use screenshots for: opening firewall, rule creation, testing connection, deleti
 
 ---
 
-🛡 Option 2: Linux (UFW)
+ Option 2: Linux (UFW)
 
 > Ensure UFW is installed and active. Run these as root or with sudo.
 
-
-
-🔧 Commands:
+ Commands:
 
 1. Enable UFW:
 
@@ -117,8 +114,7 @@ sudo iptables-save > firewall-rules.txt
 
 
 ---
-
-🧠 Firewall Summary
+ Firewall Summary
 
 A firewall filters incoming and outgoing network traffic based on a set of rules.
 
