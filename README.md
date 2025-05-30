@@ -123,3 +123,37 @@ It can block/allow traffic based on IP addresses, port numbers, or protocols.
 Example: Blocking port 23 prevents Telnet connections, which reduces exposure to certain attacks.
 
 Allowing only essential services, like SSH, reduces the attack surface.
+
+
+# NAT in firewalls
+
+[NAT in firewalls]
+
+
+
+allows multiple devices on a private network to share a single public IP address. Firewalls with NAT help hide internal IP addresses from external networks, improving security and reducing exposure to potential threats.
+
+
+
+# firewall improve network security
+.Blocks unauthorized access and cyberattacks.
+
+.Filters harmful traffic like malware and phishing attempts.
+
+.Monitors and logs network activity for security analysis.
+
+.Prevents exposure of sensitive services by restricting access to specific IPs or applications.
+
+
+
+# common firewall mistakes/
+.Overly permissive rules that allow excessive access.
+Failure to update firewall configurations when network changes occur.
+
+Not logging traffic for auditing and troubleshooting.
+
+Misconfigured NAT or port forwarding leading to unintended access.
+
+Ignoring outbound rules, leaving internal devices vulnerable to malware communication.
+
+
