@@ -1,0 +1,43 @@
+
+🔧 Commands Used:
+
+1. Enable UFW:
+
+>>sudo ufw enable
+
+
+2. List Current Rules:
+
+>>sudo ufw status numbered
+
+
+3. Block Port 23 (Telnet):
+
+>>sudo ufw deny 23/tcp
+
+
+4. Test the Rule:
+
+Try: >>telnet localhost 23       
+         Or
+use: >>nc -zv localhost 23
+
+
+
+5. Allow SSH (Port 22):
+
+>>sudo ufw allow 22/tcp
+
+
+6. Remove the Block Rule:
+
+>>sudo ufw delete deny 23/tcp
+
+
+7. Take Screenshot / Save Config:
+
+>>sudo ufw status verbose
+
+You can also export UFW rules:
+
+>>sudo iptables-save > firewall-rules.txt
